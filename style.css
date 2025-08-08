@@ -44,11 +44,11 @@ div{
     margin-left: auto;
 } */
 
-ul{
+.lists ul{
      list-style-type:none;
 }
 
-ul li{
+.lists ul li{
     display: inline;
    padding: 10px;
     
@@ -61,7 +61,7 @@ ul li{
 
 
 
-ul li:hover{
+.lists ul li:hover{
     cursor: pointer;
     background-color: aquamarine;
     padding: 10px;
@@ -69,6 +69,13 @@ ul li:hover{
     
 }
 
-input{
+fieldset{
+    width: 70%;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input,select{
     padding: 10px;
 }

@@ -5,6 +5,7 @@
 
     </head>
     <body>
+       <div>
         <h1>heading1</h1>
         <h2>heading2</h2>
         <h3>heading3</h3>
@@ -28,6 +29,8 @@
             price <del>180</del> <ins>100 </ins>
         </p>
 
+       </div>
+       <div >
         <h1>Tables</h1>
         <table>
             <tr>
@@ -55,8 +58,12 @@
             </tr>
 
         </table>
+       </div>
         
+       <div>
         <h2>Forms</h2>
+       <fieldset>
+       <legend>Simple Form</legend>
         <form action="">
             <label for="name">Name: </label>
             <input type="text" id="name" required placeholder="name">
@@ -76,12 +83,36 @@
             <input type="radio" name="gender" id="male" required>
             <label for="female">female</label>
             <input type="radio" name="gender" id="female" required>
+            <br><br>
+            <label for="">Subjects:</label>
+            <br>
+            <input type="checkbox" name="" id="eng">
+            <label for="eng">English</label>
+            <br>
+            <input type="checkbox" name="" id="science">
+            <label for="science">Science</label>
+            <br>
+            <br>
+            <input type="week" name="range">
             
-            <br>
-            <br>
-            <input type="submit" value="signUp">
+            <br><br>
+            <label for="">university:</label>
+            <select name="" id="">
+            <option value="" disabled selected>select one</option>
+            <option value="">GC</option>
+            <option value="">Uaf</option>
+            </select>
+            
+            <br><br>
+            
+            <textarea style="width: 100%;" name="" id="" rows="10" cols="60"></textarea>
+            <br><br>
+            <input type="submit" value="signup">
         </form>
+       </fieldset>
+       </div>
 
+        <div class="lists">
         <h2>Lists</h2>
         <h3>unordered list</h3>
         <ul>
@@ -118,5 +149,10 @@
 
         <img width="100px" src="/img.png" alt="testing" height="100px">
 
+        </div>
+        
+        <ul>
+        <li>list item1</li>
+        </ul>
     </body>
 </html>
